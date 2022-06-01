@@ -29,3 +29,8 @@ install packages
 ```
 npm install
 ```
+
+## TODO
+- admin panel to manage links
+- words protect links: need to type one or more words to unlock links section
+- read links from json file to complete those from localStorage
