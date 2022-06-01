@@ -37,7 +37,9 @@
 		width: 100%;
 		height: 100%;
 		aspect-ratio: 1 / 1;
-		background: #fff;
+		background:	linear-gradient(217deg, rgba(200,0,0,.8), rgba(200,0,0,0) 70.71%),
+								linear-gradient(127deg, rgba(0,200,0,.8), rgba(0,200,0,0) 70.71%),
+								linear-gradient(336deg, rgba(0,0,200,.8), rgba(0,0,200,0) 70.71%);
 		padding: 2em;
 		border-radius: 1em;
 	}
