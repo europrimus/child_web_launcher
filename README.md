@@ -2,6 +2,16 @@
 A web launcher for young child (4 ~ 5 years) used with a navigator in kioske mode.
 There is an editable text field, where child can learn to use keyboard.
 
+links are saved in localstorage **links** as JSON
+```
+[
+  {
+    "url":"https://www.films-pour-enfants.com/",
+    "img":"https://www.films-pour-enfants.com/films-pour-enfants/films-pour-enfants-logo-white.png"
+  }
+]
+```
+
 ## My setup
 A raspberry PI connected to TV and configured to launch Chromium in kiok mode (full screan with out menu) at startup:
 ```
