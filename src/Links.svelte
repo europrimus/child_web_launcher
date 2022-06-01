@@ -15,7 +15,7 @@
 	{#if Array.isArray(get(storedLinks))}
 		{#each get(storedLinks) as link}
 			<article>
-				<a href="{link.url}"><img src="{link.img}" /></a>
+				<a href="{link.url}"><img src="{link.img}" alt="logo"/></a>
 			</article>
 		{/each}
 	{/if}
