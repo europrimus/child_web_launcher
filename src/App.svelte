@@ -1,8 +1,11 @@
 <script lang="ts">
 	import Links from './Links.svelte';
+	import Text from './Text.svelte';
+
 </script>
 
 <main>
+	<Text />
 	<Links />
 </main>
 
