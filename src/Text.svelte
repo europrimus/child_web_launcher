@@ -13,7 +13,8 @@
 <section>
 	{@debug storedText}
 	{#if storedText}
-		<article contenteditable="true" bind:innerHTML={$storedText} />
+		<!-- svelte-ignore a11y-autofocus -->
+		<article contenteditable="true" bind:innerHTML={$storedText} autofocus/>
 	{/if}
 </section>
 
